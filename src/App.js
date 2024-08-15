@@ -1,9 +1,5 @@
-import logo from './logo.svg';
 import './App.scss';
 import RidvanImg from './ridvanfoto.jpg';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { useEffect, useState } from 'react';
 import FloatingHeart from './FloatingHeart';
 function App() {
@@ -38,7 +34,7 @@ function App() {
   return (
     <div className="App">
       
-      <img src={RidvanImg}></img>
+      <img alt='ridvan' src={RidvanImg}></img>
       <p className='yazi1 hidden'>Nice beraber aylarımız, yıllarımız olması dileğiyle🙏</p>
       <p className='yazi2 hidden'>Ne bir eksik, ne bir fazla Canımmsın Sen</p>
       {hearts.map(heart => (
