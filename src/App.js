@@ -37,17 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="youtube-container">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?v=EunKkAJlB5s"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-          title="YouTube Video"
-        ></iframe>
-      </div>
+      
       <img src={RidvanImg}></img>
       <p className='yazi1 hidden'>Nice beraber aylarımız, yıllarımız olması dileğiyle🙏</p>
       <p className='yazi2 hidden'>Ne bir eksik, ne bir fazla Canımmsın Sen</p>
