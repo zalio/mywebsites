@@ -3,10 +3,8 @@ import RidvanImg from './ridvanfoto.jpg';
 import { useEffect, useState } from 'react';
 import FloatingHeart from './FloatingHeart';
 function App() {
-  const [visible, setVisible] = useState(false);
   useEffect(() => {
     setTimeout(() => {
-      setVisible(true);
       document.querySelector('.yazi1').classList.toggle('hidden');
       document.querySelector('.yazi2').classList.toggle('hidden');
     }, 2000);
