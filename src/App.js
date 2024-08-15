@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       
       <img alt='ridvan' src={RidvanImg}></img>
-      <p className='yazi1 hidden'>Nice beraber aylarımız, yıllarımız olması dileğiyle🙏</p>
+      <p className='yazi1 hidden'>Nice beraber aylarımız, yıllarımız olması dileğiyle</p>
       <p className='yazi2 hidden'>Ne bir eksik, ne bir fazla Canımmsın Sen</p>
       {hearts.map(heart => (
         <FloatingHeart key={heart.id} top={0} left={heart.left} />
