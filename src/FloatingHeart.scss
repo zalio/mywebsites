@@ -1,0 +1,18 @@
+/* FloatingHeart.css */
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100vh); /* Move to bottom of viewport */
+    }
+  }
+  
+  .floating-heart {
+    position: absolute;
+    font-size: 2rem; /* Adjust size as needed */
+    color: red; /* Heart color */
+    animation: float 5s linear infinite; /* Animation */
+    opacity: 0.8; /* Slightly transparent */
+    pointer-events: none; /* Ignore mouse events */
+  }
